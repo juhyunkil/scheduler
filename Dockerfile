@@ -1,4 +1,3 @@
-FROM scratch
-MAINTAINER Kelsey Hightower <kelsey.hightower@gmail.com>
+FROM ubuntu:16.04
 ADD scheduler /scheduler
 ENTRYPOINT ["/scheduler"]
