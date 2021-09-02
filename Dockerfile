@@ -1,3 +1,3 @@
 FROM ubuntu:16.04
-ADD scheduler /scheduler
-ENTRYPOINT ["/scheduler"]
+ADD gpu-scheduler /gpu-scheduler
+ENTRYPOINT ["/gpu-scheduler"]

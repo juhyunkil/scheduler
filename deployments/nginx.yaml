@@ -12,12 +12,12 @@ spec:
   template:
     metadata:
       annotations:
-        scheduler.alpha.kubernetes.io/name: scheduler
+        test: testdata
       labels:
         app: nginx
       name: nginx
     spec:
-      schedulerName: scheduler
+      schedulerName: gpu-scheduler
       containers:
         - name: nginx
           image: "nginx:1.11.1-alpine"
